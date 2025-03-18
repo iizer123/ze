@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+.asd2{
+    margin: 0 7rem;
+    height: 100%;
+
+}
+#asd{
+    height: 100vh;
+    background: #0162be;
+    color: #fff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.img{
+    width: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+   
+}
+ a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a{
+     padding: 20px;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 70%;
+}
+ .pepsi{
+    width: 300px;
+    animation: animation1 2s ease-out;
+ }          
+
+ h1{
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 40px;
+ }
+ span{
+    font-size: 70px;
+ }
+ p{
+    font-weight: 300px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    width: 60%;
+ }
+.btn{
+    font-size: 14px;
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 30px;
+    color:#000;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.sdfg{
+    margin-left: 3rem;
+    animation: animation1 2s ease-out;
+}
+.sdfg i{
+    font-size: 30px;
+    margin: 30px 0;
+    color: #fff;
+  display: block;
+}
+.pepsi-three{
+   width: 100px;
+    margin: auto;
+    display: block;
+    animation: animation2 2s ease-out;
+}
+
+@keyframes animation1{
+    0%{
+        transform: translatex(500px);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
+@keyframes animation2{
+    0%{
+        transform: translatey(200px);
+    }
+    100%{
+        transform: translatey(0);
+    }
+}
+@media(max-width: 900px){
+    .asd2{
+        margin: 0 1rem;
+    }
+    nav a{
+padding: 10px;
+    }
+    .container{
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 0 0;
+    }
+    p{
+        width: 100%;
+    }
+    .container-zezo{
+        margin-bottom: 2rem;
+    }
+    .pepsi{
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .sdfg{
+        display: flex;
+        margin-bottom: 30px 0;
+        margin-left: 0;
+        gap: 15px;
+    }
+
+}
+@media(max-width: 600px){
+    nav{
+        display: block;
+    }
+    .img{
+        display: block;
+        margin: 0 auto 15px;
+
+    }
+    ul{
+        justify-content: center;
+    }
+    nav a{
+        font-size: 12px;
+    }
+    .pepsi{
+        width: 90px;
+        margin-bottom: 0;
+    }
+    .sdfg{
+       
+        margin-bottom: 0;
+        margin-left: 0;
+        gap: 15px;
+    }
+
+        
+}

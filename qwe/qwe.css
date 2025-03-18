@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+#asd{
+    background: #0162be;
+    height: 100vh;
+    color: #fff;
+}
+.asd2{
+    padding: 0 7rem;
+    height: 100%;
+}
+nav{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav .img{
+    width: 50px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a{
+    padding:20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+.container .container-zezo h1{
+    font-size: 40px;
+    font-weight: 900px;
+    margin-bottom: 10px;
+
+} 
+.container .container-zezo h1 span{
+    font-size: 70px;
+}
+.container .container-zezo p{
+    font-weight: 300px;
+    line-height: 1.4;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.btn{
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 40px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.pepsi{
+    width: 300px;
+}
+.sdfg{
+ margin-left: 3rem;
+}
+.sdfg i{
+    font-size: 30px;
+    margin: 30px 0;
+    display: block;
+}
